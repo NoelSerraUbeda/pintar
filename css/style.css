@@ -1,0 +1,135 @@
+body {
+    overflow: hidden;
+    cursor: none;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.colores img {
+    position: absolute;
+    height: 200px;
+}
+.colores {
+    position: relative;
+    width: 45%;
+    height: 700px;
+}
+#rojo {
+    top: 0px;
+    left: 50px;
+    height: 160px;
+    transform: rotate(87deg);
+}
+#azul {
+    top: 10px;
+    right: 10px;
+    height: 150px;
+    transform: rotate(-6deg);
+}
+#amarillo {
+    top: 30px;
+    right: 200px;
+    height: 220px;
+    transform: rotate(-24deg);
+}
+#verde {
+    top: 240px;
+    left: 300px;
+    height: 230px;
+    transform: rotate(-80deg);
+}
+#naranja {
+    top: 170px;
+    right: 60px;
+    height: 200px;
+    transform: rotate(51deg);
+}
+#rosa {
+    bottom: 220px;
+    left: 30px;
+    height: 190px;
+    transform: rotate(-28deg);
+}
+#cian {
+    bottom: 60px;
+    left: 150px;
+    height: 210px;
+    transform: rotate(-57deg);
+}
+#morado {
+    bottom: 160px;
+    right: 150px;
+    height: 180px;
+    transform: rotate(-9deg);
+}
+#blanco {
+    bottom: 15px;
+    left: 8px;
+    height: 150px;
+    transform: rotate(47deg);
+}
+#negro {
+    bottom: 10px;
+    right: 8px;
+    height: 170px;
+    transform: rotate(33deg);
+}
+#gris {
+    bottom: 40px;
+    right: 300px;
+    height: 160px;
+    transform: rotate(64deg);
+}
+#lima {
+    top: 80px;
+    left: 200px;
+    height: 180px;
+    transform: rotate(-51deg);
+}
+
+.superpenat
+{
+background-color: white;
+border: 5px solid #b5b099;
+border-radius: 15px;
+width: 800px;
+height: 680px;
+}
+
+#elpenat
+{
+    width: 800px;
+}
+#pincel {
+    position: absolute;
+    width: 120px;
+    pointer-events: none;
+}
+#imprimir {
+    position: absolute;
+    width: 120px;
+    top: 40px;
+    right: 60px;
+    background-color: #D9D9D9;
+    border: 5px solid #B5B19A;
+    border-radius: 50%;
+    padding: 10px;
+}
+#imprimir:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#imprimir:active {
+    filter: brightness(1.1);
+}
+#imprimir img {
+    display: block;
+    width: 100%;
+}
+#volver {
+    z-index: 20;
+}
+
